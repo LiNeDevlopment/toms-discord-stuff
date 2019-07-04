@@ -17,6 +17,7 @@ function buildItemsList() {
 			if(item.flags.unstable) flags.insertAdjacentHTML("beforeend", `<span class="material-icons item-flag has-tooltip" data-tooltip="Unstable: many bugs may be present">bug_report</span>`);
 			if(item.flags.unfinished) flags.insertAdjacentHTML("beforeend", `<span class="material-icons item-flag has-tooltip" data-tooltip="Unfinished: many problems may be present">warning</span>`);
 			if(item.flags.deprecated) flags.insertAdjacentHTML("beforeend", `<span class="material-icons item-flag has-tooltip" data-tooltip="Deprecated: will be deleted soon">thumb_down</span>`);
+			if(item.flags.unofficial) flags.insertAdjacentHTML("beforeend", `<span class="material-icons item-flag has-tooltip" data-tooltip="Unofficial: this plugin is not\nsupported by BetterDiscord,\nif you have questions or need help,\neither ask in my server or dm me,\nyou will not receive help\nfrom BetterDiscord servers">notification_important</span>"`)
 		};
 
 		for(let i = items.plugins.length - 1; i > -1; i--) {

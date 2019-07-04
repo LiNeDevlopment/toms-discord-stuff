@@ -140,10 +140,12 @@
     {
       "name": "Message Logger",
       "description": "Records all sent messages, message edits and message deletions in the specified servers, all unmuted servers or all servers, and all direct messages.",
-      "source": "https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/MessageLogger.plugin.js",
+      "source": "https://github.com/Metalloriff/UnofficialBetterDiscordPlugins/blob/master/MessageLogger.plugin.js",
       "preview": "https://raw.githubusercontent.com/Metalloriff/BetterDiscordPlugins/master/Assets/ML/Preview/",
       "note": "Default keybind for opening the log is Control/Command + M, and the default keybind for opening the log filtered to the selected channel is Control/Command + Alt + M.",
-      "flags": {}
+      "flags": {
+        "unofficial": true
+      }
     },
     {
       "name": "Open Links In Discord",
@@ -231,7 +233,6 @@
       "description": "Prevents Discord from automatically pausing Spotify after transmitting your microphone for 30 seconds.",
       "source": "https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/PreventSpotifyAutoPause.plugin.js",
       "flags": {
-        "new": true,
         "requested": true
       }
     },
@@ -241,7 +242,6 @@
 			"source": "https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/PinCollapsedChannels.plugin.js",
 			"preview": "https://raw.githubusercontent.com/Metalloriff/BetterDiscordPlugins/master/Assets/PCC/Preview/",
 			"flags": {
-				"new": true,
 				"requested": true
 			}
 		},
@@ -249,9 +249,7 @@
 			"name": "Suppress User Mentions",
 			"description": "Allows you to suppress mentions from specified users without blocking them.",
 			"source": "https://github.com/Metalloriff/BetterDiscordPlugins/blob/master/SuppressUserMentions.plugin.js",
-			"flags": {
-				"new": true
-			}
+			"flags": {}
 		}
   ],
   "themes": [{
@@ -338,9 +336,7 @@
 		"description": "Removes the background of the home button and adds a glow upon hover, and a colored glow when selected.",
 		"filename": "BetterHomeButton.css",
 		"previews": ["https://i.imgur.com/N7NXaKO.png"],
-		"flags": {
-			"new": true
-		}
+		"flags": {}
 	}
   ],
   "bots": [
@@ -356,9 +352,7 @@
 			"description": "A Discord bot for fetching random server and bot invites from <a href=\"https://discordbots.org\">https://discordbots.org</a>",
 			"source": "https://github.com/Metalloriff/DiceBot",
 			"inviteLink": "https://discordapp.com/oauth2/authorize?client_id=479853168436576257&permissions=2048&scope=bot",
-			"flags": {
-				"new": true
-			}
+			"flags": {}
 		}
 	]
 }
