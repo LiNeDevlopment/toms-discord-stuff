@@ -1,4 +1,0 @@
-[class^=guildsWrapper]{width:88px}
-#app-mount [class^=guildsWrapper] ::-webkit-scrollbar{max-width:10px}
-#app-mount [class^=guildsWrapper] ::-webkit-scrollbar-track-piece{background-color:rgba(50,50,50,0.3); border: none}
-#app-mount [class^=guildsWrapper] ::-webkit-scrollbar-thumb{border:none}
